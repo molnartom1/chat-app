@@ -1,0 +1,5 @@
+name = "chat-app-worker"
+main = "worker.js"
+compatibility_date = "2025-10-15"
+[vars]
+CORS_ORIGIN = "https://chat.pages.dev"
