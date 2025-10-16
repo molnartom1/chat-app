@@ -5,5 +5,8 @@ export default defineConfig({
   plugins: [react()],
   define: {
     'import.meta.env.VITE_WS_URL': JSON.stringify('wss://chat.pages.dev/ws')
+  },
+  build: {
+    target: 'esnext'  // ✅ ez engedi a top-level await-et
   }
 });
